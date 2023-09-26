@@ -1,0 +1,7 @@
+version: '1'
+services: 
+  passport_reader:
+    image: docker.io/library/passport_reader:1.0
+    ports:
+    - 8000:8000
+    
